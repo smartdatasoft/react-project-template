@@ -1,12 +1,12 @@
 import React from 'react';
-import Counter from './components/Counter';
+import Todos from './components/Todos';
 
 const App = () => {
   return (
     <div>
       <div>
         <h1>React Redux Example</h1>
-        <Counter />
+        <Todos />
       </div>
     </div>
   );
