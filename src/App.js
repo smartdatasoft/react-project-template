@@ -1,20 +1,13 @@
 import React from 'react';
-import { FaYoutube } from 'react-icons/fa';
+import Counter from './components/Counter';
 
 const App = () => {
   return (
     <div>
-      <h1>Welcome to React</h1>
-      <footer>
-        <p className="left">
-          Subscribe to my{' '}
-          <a href="https://www.youtube.com/c/anisulislamrubel">
-            <FaYoutube className="footer__icon" />
-          </a>{' '}
-          channel
-        </p>
-        <p className="right">Developed with &hearts; by Anisul Islam</p>
-      </footer>
+      <div>
+        <h1>React Redux Example</h1>
+        <Counter />
+      </div>
     </div>
   );
 };
