@@ -1,13 +1,10 @@
 import React from 'react';
-import Todos from './components/Todos';
+import Index from './routes';
 
 const App = () => {
   return (
     <div>
-      <div>
-        <h1>React Redux Example</h1>
-        <Todos />
-      </div>
+      <Index />
     </div>
   );
 };
